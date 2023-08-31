@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('modules/head.html', {
+"title": "This is home page"
+})
+
+<body>
+    <div class="container" id="clock">
+        <span class="display-1 shadow p-3 mb-5 bg-body-tertiary rounded" id="day"></span>
+        <span class="display-1 shadow p-3 mb-5 bg-body-tertiary rounded" id="hour"></span>
+        <span class="display-1 shadow p-3 mb-5 bg-body-tertiary rounded" id="minute"></span>
+        <span class="display-1 shadow p-3 mb-5 bg-body-tertiary rounded" id="second"></span>
+    </div>
+    <script src="/node_modules/moment/moment.min.js"></script>
+    <script src="main.min.js"></script>
+
+</body>
+
+</html>
